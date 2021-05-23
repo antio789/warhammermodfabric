@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "warhammermod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EnchantmentTablemixin",
+    "AnvilEnchantement"
+  ],
+  "server": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
